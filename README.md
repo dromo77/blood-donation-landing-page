@@ -6,13 +6,9 @@ Design by: [Clément Marie](http://clement-marie.fr/)
 
 Welcome! Thanks for checking out this front-end coding challenge. 
 
-Your task is to build out the project to the design inside the `/design` folder.
+The challenge was to build out the project to the design inside the `/design` folder.
 
-This project poses some nice challenges using CSS gradients. You'll need to place two gradients as a background on the `body` to get the subtle gradients from the design correct.
-
-The challenge does not require any JavaScript and **should not include any front-end frameworks/libraries**.
-
-If you decide to push the project live, tweet **@frontendmentor** once you're finished with your URL in the tweet. I'd love to take a look at what you've built!
+View my version of the landing page [here](https://dromo77.github.io/frontend-mentor-blood-donation-landing-page/).
 
 ## Styleguide
 
