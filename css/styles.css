@@ -1,0 +1,87 @@
+/*****************************
+  BASE SETUP
+*****************************/
+
+html {
+    box-sizing: border-box; /* use IE box model */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; /* inherit allows for easy creation of a new box model context further down the tree */
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
+    font-family: 'Poppins', sans-serif;
+    color: rgb(86,98,112);
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(165deg, rgba(255,255,255,0.03), rgba(184,201,229,0.25)), url(images/blood-donor-illustration.png);
+    background-repeat: no-repeat;
+    background-position: 90% 75%;
+}
+
+/*radial circle rgba(238,184,189,0.25) to rgba(255,255,255,0.25) at 75% from left and 75% from top`*/
+
+/*****************************
+  Navigation
+*****************************/
+
+nav {
+    padding: 2rem;
+}
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    color: rgb(86,98,112);
+}
+
+nav a {
+     margin: 0 0 .25rem 3rem;
+}
+
+nav a:hover,
+nav a:active {
+    border-bottom: 3px solid rgb(232,133,173);
+}
+
+/*****************************
+  Hero
+*****************************/
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    line-height: 3.25rem;
+}
+
+p {
+    width: 500px;
+    margin-bottom: 3rem;
+    line-height: 1.5rem;
+}
+
+.hero {
+   margin: 10rem 5rem;
+}
+
+button {
+    font-family: 'Adamina', serif;
+    background: linear-gradient(to right, rgb(249,149,194), rgb(232,133,173));
+    color: #ffffff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 5px 8px 10px rgba(86, 98, 112, 0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translate(-3px, -3px);
+    transition: transform .25s;
+}
